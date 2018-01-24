@@ -1,7 +1,3 @@
-#user Transaction blockchain
-#user (privateK publicK name timeMade)
-#Transaction (from to money time_Transaction)-->check
-#blockchain
 from Crypto.PublicKey import RSA
 from Crypto.Signature import PKCS1_v1_5
 from Crypto.Hash import SHA256
@@ -20,12 +16,6 @@ class User():
         # self.noCoins = None
 
     def createKey(self,id):
-        '''
-        Generate an RSA keypair with an exponent of 65537 in PEM format
-        param: bits The key length in bits
-        Return private key and public key
-        '''
-        # from Crypto.PublicKey import RSA
         self.id = id
         self.bornTime = time.ctime()
         new_key = RSA.generate(2048, e=65537)
