@@ -1,5 +1,5 @@
 # Goofy-Coin
-<!--
+
 # User #
      * this class contain user info this is created when a new user is added to
      blockchain structure this class contain :
@@ -7,7 +7,7 @@
 ## id
      * this has id of user
 ## name
-     * name of user
+     * name of user     
 ## __privateKey
      * Generate an RSA keypair with an exponent of 65537 in PEM format
    param: bits The key length in bits
@@ -65,4 +65,3 @@ Return private key and public key
      * weather he has money
      * weather all his trancation are legit
 ## main()
- -->
