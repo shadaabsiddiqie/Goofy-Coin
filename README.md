@@ -12,8 +12,9 @@
 ##signTransaction(hashData)     
 
 #Transaction
-
+     this is a part of ledger and it contain details of the transaction
 ##id
+     
 ##fromPublickey
 ##toPublickey
 ##tCoins
