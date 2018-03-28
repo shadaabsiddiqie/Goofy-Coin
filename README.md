@@ -6,15 +6,17 @@
  - base64
 
 ## Classes
- - User
+### User
   + createKey
   + signTransaction
- - transaction
+
+### transaction
   + verify_sign
   + coinTransaction
   + createHash
   + userTransaction
- - Blockchain
+  
+### Blockchain
   + condition
   + getUser
   + verifyTranaction
